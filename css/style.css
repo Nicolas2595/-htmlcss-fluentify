@@ -183,10 +183,36 @@ h4 {
 }
 
 .section3 {
-    background-color: gold;
-    height: 500px;
+    height: 550px;
 }
 
 hr {
     border: 1px solid dimgrey;
+}
+
+.image-left {
+    height: 0px;
+    width: 45%;
+    padding-top: 50px; 
+    margin: 0 5%;   
+}
+
+.column-right {
+    height: 550px;
+    width: 45%;
+    padding-top: 50px;
+}
+
+h5 {
+    color: dimgray;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#color {
+    color: dodgerblue;
+}
+
+.column-right > h2 {
+    font-size: 39px;
 }
