@@ -182,23 +182,24 @@ h4 {
     margin-bottom: 40px;
 }
 
-.section3 {
+/*.section3 {
     height: 550px;
-}
+}*/
 
 hr {
     border: 1px solid dimgrey;
 }
 
 .image-left {
-    height: 0px;
+    /*height: 0px;*/
     width: 45%;
     padding-top: 50px; 
+    padding-bottom: 40px;
     margin: 0 5%;   
 }
 
 .column-right {
-    height: 550px;
+   /* height: 550px;*/
     width: 45%;
     padding-top: 50px;
 }
@@ -215,4 +216,31 @@ h5 {
 
 .column-right > h2 {
     font-size: 39px;
+}
+
+/*Footer*/
+
+footer {
+    height: 200px;
+    background-color: silver;
+}
+
+#structure {
+    font-size: 33px;
+    padding-top: 80px;
+}
+
+.list-inline2 {
+    list-style: none;
+}
+
+.list-inline2 > li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.list-inline2  a {
+    text-decoration: none;
+    color: dimgray;
+    font-size: 18px;
 }
