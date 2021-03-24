@@ -1,6 +1,117 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    margin: 0;    
+}
+
+body {
     font-family: 'Roboto', sans-serif;
+}
+
+/*header*/
+header {
+    height: 600px;
+    background-color: #0c325a;
+    background-image: url('../immagini/background-header.png');
+    background-size: 70% auto;
+    background-repeat: no-repeat;
+    background-position: 115% bottom;
+
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.header-nav {
+    height: 55px;
+    line-height: 80px;
+}
+
+.float-left {
+    float: left;    
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo {
+    width: 20%;
+    height: 100%;
+}
+
+.logo img {
+    vertical-align: middle;
+}
+
+.nav-left {
+    width: 45%;
+    height: 100%;
+    text-align: left;
+}
+
+.nav-right {
+    width: 35%;
+    height: 100%;
+    text-align: right;
+}
+
+.list-inline {
+    list-style: none;
+}
+
+.list-inline li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.list-inline a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.btn-large {
+    padding: 20px;
+}
+
+.btn-blue {
+    background-color: #0c325a;
+    border: 1px solid white;
+}
+
+.btn-green{
+    background-color: limegreen;
+    color: white;
+}
+
+.jumbotron {
+    height: 545px;
+    width: 50%;
+    position: relative;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.jumbotron-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
 }
