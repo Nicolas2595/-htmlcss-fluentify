@@ -258,6 +258,7 @@ footer {
 
 }
 
+
 .footer-list {
     text-align: right;
     position: absolute;
@@ -286,4 +287,11 @@ footer {
 #triangle {
     padding-left: 55px;
     font-size: 24px;
+}
+
+/*Bottom-fixed*/
+.bottom-fixed {
+    position: fixed;
+    bottom: 0;
+    right: 340px;
 }
